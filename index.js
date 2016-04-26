@@ -28,7 +28,7 @@ bot.onTextMessage(/^hi|hello|bonjour|hoi|howdy|hey$/i, (incoming, next) => {
      incoming.reply('Hello, kind sir! I am ShugaBot, an experiment on Kik. Thanks for talking to me! How are you?');
  });
 
- bot.onTextMessage(/^darn|damn|that sucks|shit|shoot|crap$/i, (incoming, next) => {
+ bot.onTextMessage(/^darn|damn|that sucks|shit|shoot|crap|fuck|f u|fu|die$/i, (incoming, next) => {
       incoming.reply('Sucks to be you!');
   });
 
