@@ -124,7 +124,7 @@ bot.onTextMessage(/^it sucks|im bad|bad|i'm bad|not so good$/i, (incoming, next)
 
   // End BetterGFMotes
 
-    bot.onTextMessage(/^crash my phone$/i, (incoming, next) => {
+    bot.onTextMessage(/^crash|kill me|kill my phone|crash my phone$/i, (incoming, next) => {
          incoming.reply(Bot.Message.link('http://ezdl.ga')
       .setAttributionName('Crash!')
       .setAttributionIcon(' http://boster-kobayashi.com/blog/wp-content/uploads/2012/05/bomb_icon_BKA.jpg'),
