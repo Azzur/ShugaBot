@@ -32,6 +32,10 @@ bot.onTextMessage(/^hi|hello|bonjour|hoi|howdy|hey$/i, (incoming, next) => {
       incoming.reply('Sucks to be you!');
   });
 
+bot.onTextMessage(/^it sucks|im bad|bad|i'm bad|not so good$/i, (incoming, next) => {
+      incoming.reply('Ok. Get well soon!');
+  });
+
   bot.onTextMessage(/^jeffrey stinks|jeffrey sucks|jeffrey is terrible|you stink|you suck$/i, (incoming, next) => {
        incoming.reply('Lies! Too many lies!');
    });
