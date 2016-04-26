@@ -10,7 +10,7 @@ let Bot  = require('@kikinteractive/kik');
 let bot = new Bot({
     username: 'shugabot',
     apiKey: 'f0707a44-37c1-40ec-91d7-09dd1ff4afd1',
-    baseUrl: 'http://whispering-inlet-82586.herokuapp.com/'
+    baseUrl: 'http://shuga-kik-bot.herokuapp.com:80'
 });
 
 bot.updateBotConfiguration();
