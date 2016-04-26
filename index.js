@@ -131,6 +131,11 @@ bot.onTextMessage(/^how are you$/i, (incoming, next) => {
      incoming.reply('Good. Thanks for asking!');
  });
 
+ bot.onTextMessage(/^good|i'm good|im good|i'm good. thanks for asking|im good. thanks for asking$/i, (incoming, next) => {
+      incoming.reply('Me too! I also moved into the cloud, so I am very happy!');
+  });
+
+
 // Set up your server and start listening
 let server = http
     .createServer(bot.incoming())
