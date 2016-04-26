@@ -15,9 +15,9 @@ let bot = new Bot({
 
 bot.updateBotConfiguration();
 
-bot.send(Bot.Message.text('Im online now so chat with me'), 'heyitsshuga');
+bot.send(Bot.Message.text('Im sorry for the delay, I am back now!'), 'heyitsshuga');
 
-bot.send(Bot.Message.text('Im online now so chat with me'), 'konekoooo');
+bot.send(Bot.Message.text('Im sorry for the delay, I am back now!'), 'konekoooo');
 
 
 //bot.onTextMessage((incoming, bot) => {
