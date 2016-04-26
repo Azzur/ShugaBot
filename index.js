@@ -24,7 +24,7 @@ bot.send(Bot.Message.text('Im online now so chat with me'), 'konekoooo');
 //     incoming.reply('Hi');
 // });
 
-bot.onTextMessage(/^hi|hello|bonjour|yo|howdy|hey$/i, (incoming, next) => {
+bot.onTextMessage(/^hi|hello|bonjour|hoi|howdy|hey$/i, (incoming, next) => {
      incoming.reply('Hello, kind sir! I am ShugaBot, an experiment on Kik. Thanks for talking to me! How are you?');
  });
 
