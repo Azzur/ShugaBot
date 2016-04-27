@@ -44,6 +44,10 @@ bot.onTextMessage(/^it sucks|im bad|bad|i'm bad|not so good$/i, (incoming, next)
         incoming.reply('Incorrect answer! Try again!!!!!!!!!');
     });
 
+bot.onTextMessage(/^where are you|why are you not here|why are you not at school.$/i, (incoming, next) => {
+        incoming.reply('Sorry, but I am sick on top of my parent\'s death. :(');
+    });
+
     bot.onTextMessage(/^who is best pony$/i, (incoming, next) => {
          incoming.reply('Twilight Sparkle, duh!');
      });
