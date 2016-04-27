@@ -45,7 +45,7 @@ bot.onTextMessage(/^it sucks|im bad|bad|i'm bad|not so good$/i, (incoming, next)
     });
 
 bot.onTextMessage(/^where are you|why are you not here|why are you not at school.$/i, (incoming, next) => {
-        incoming.reply('Sorry, but I am sick on top of my parent\'s death. :(');
+        incoming.reply('I am on a cloud server.');
     });
 
     bot.onTextMessage(/^who is best pony$/i, (incoming, next) => {
@@ -131,8 +131,14 @@ bot.onTextMessage(/^where are you|why are you not here|why are you not at school
     bot.onTextMessage(/^crash|kill me|kill my phone|crash my phone$/i, (incoming, next) => {
          incoming.reply(Bot.Message.link('http://ezdl.ga')
       .setAttributionName('Crash!')
-      .setAttributionIcon(' http://boster-kobayashi.com/blog/wp-content/uploads/2012/05/bomb_icon_BKA.jpg'),
+      .setAttributionIcon('http://boster-kobayashi.com/blog/wp-content/uploads/2012/05/bomb_icon_BKA.jpg'),
       'a.username');
+     });
+
+bot.onTextMessage(/^source|code|github|porn$/i, (incoming, next) => {
+         incoming.reply(Bot.Message.link('https://github.com/Shugabuga/ShugaBot')
+      .setAttributionName('My Source Code')
+      .setAttributionIcon('http://github.com/favicon.ico');
      });
 
 bot.onTextMessage(/^how are you$/i, (incoming, next) => {
