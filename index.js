@@ -135,11 +135,7 @@ bot.onTextMessage(/^where are you|why are you not here|why are you not at school
       'a.username');
      });
 
-bot.onTextMessage(/^source|code|github|porn$/i, (incoming, next) => {
-         incoming.reply(Bot.Message.link('https://github.com/Shugabuga/ShugaBot')
-      .setAttributionName('My Source Code')
-      .setAttributionIcon('http://github.com/favicon.ico');
-     });
+
 
 bot.onTextMessage(/^how are you$/i, (incoming, next) => {
      incoming.reply('Good. Thanks for asking!');
