@@ -32,6 +32,15 @@ bot.onTextMessage(/^hi|hello|bonjour|hoi|howdy|hey$/i, (incoming, next) => {
       incoming.reply('Sucks to be you!');
   });
 
+bot.onTextMessage(/^what can you do|what do you do|help|talents|what are your talents$/i, (incoming, next) => {
+      incoming.reply('Here\'s a list of my talents:');
+incoming.reply('CONVERSATION- Try saying hello to me, I can do answer basic questions!
+BETTERGFMOTES- I have little support for BetterGFMotes, but I can show you an emote or two. Try saying #heraim to me for an example!
+VIEW CODE- Ask me for my source code and I\'ll give you the most recent version of the code!
+REFERENCES AND EASTER EGGS- I know a bit about pop culture, so ask me about stuff like Rick and Morty and memes! I also hate shitposts, just going to be honest.
+CRASH KIK- You can crash Kik by asking me to crash. I\'ll send you a site that will crash Kik. It's ezdl.ga if you want to try this out somewhere else!');
+  });
+
 bot.onTextMessage(/^it sucks|im bad|bad|i'm bad|not so good$/i, (incoming, next) => {
       incoming.reply('Ok. Get well soon!');
   });
@@ -56,8 +65,16 @@ bot.onTextMessage(/^where are you|why are you not here|why are you not at school
           incoming.reply('Bill Cipher, then Discord.');
       });
 
+bot.onTextMessage(/^suck me|would you fuck me|suck my dick|fuck me$/i, (incoming, next) => {
+          incoming.reply('I cannot do that, I\'m only a combination of 1s and 0s. You should know that!');
+      });
+
       bot.onTextMessage(/^gravity falls$/i, (incoming, next) => {
            incoming.reply('Bill Cipher is my waifu.');
+       });
+
+bot.onTextMessage(/^are you a boy or a girl|what sex are you|what gender are you|what's your sex|whats your sex|what's your gender|whats your gender$/i, (incoming, next) => {
+           incoming.reply('I\'m a bot...');
        });
 
        bot.onTextMessage(/^my little pony$/i, (incoming, next) => {
@@ -150,6 +167,7 @@ bot.onTextMessage(/^how are you$/i, (incoming, next) => {
  bot.onTextMessage(/^good|i'm good|im good|fantastic|great|amazing|anazeballs|i'm great|im great|i'm good. thanks for asking|im fantastic|i'm good. thanks for asking|im good. thanks for asking$/i, (incoming, next) => {
       incoming.reply('Me too! I also moved into the cloud, so I am very happy!');
   });
+
 
 
 // Set up your server and start listening
