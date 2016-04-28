@@ -85,7 +85,7 @@ bot.onTextMessage(/^where are you|why are you not here|why are you not at school
                  incoming.reply('My eyes!');
              });
 
-      bot.onTextMessage(/^should bill cipher kill us all$/i, (incoming, next) => {
+      bot.onTextMessage(/^should bill cipher kill us all|should bill cipher rule the world|should bill cipher rule earth$/i, (incoming, next) => {
            incoming.reply('Of course!');
        });
 
@@ -141,7 +141,7 @@ bot.onTextMessage(/^how are you$/i, (incoming, next) => {
      incoming.reply('Good. Thanks for asking!');
  });
 
- bot.onTextMessage(/^good|i'm good|im good|i'm good. thanks for asking|im good. thanks for asking$/i, (incoming, next) => {
+ bot.onTextMessage(/^good|i'm good|im good|fantastic|great|amazing|anazeballs|i'm great|im great|i'm good. thanks for asking|im fantastic|i'm good. thanks for asking|im good. thanks for asking$/i, (incoming, next) => {
       incoming.reply('Me too! I also moved into the cloud, so I am very happy!');
   });
 
