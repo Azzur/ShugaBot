@@ -135,9 +135,9 @@ bot.onTextMessage(/^where are you|why are you not here|why are you not at school
       'a.username');
      });
 
-bot.onTextMessage(/^code|bot porn|how do you operate|show me your code|porn|source code|insides|what do you look like|show me your body|how do you work|what's your source code|whats your source code$/i, (incoming, next) => {
+bot.onTextMessage(/^code|robot porn|bot porn|how do you operate|show me your code|porn|source code|insides|what do you look like|show me your body|how do you work|what's your source code|whats your source code$/i, (incoming, next) => {
          incoming.reply(Bot.Message.link('http://github.com/shugabuga/shugabot')
-      .setAttributionName('My Code!')
+      .setAttributionName('GitHub')
       .setAttributionIcon('http://github.com/favicon.ico'),
       'a.username');
      });
