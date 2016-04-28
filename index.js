@@ -34,11 +34,7 @@ bot.onTextMessage(/^hi|hello|bonjour|hoi|howdy|hey$/i, (incoming, next) => {
 
 bot.onTextMessage(/^what can you do|what do you do|help|talents|what are your talents$/i, (incoming, next) => {
       incoming.reply('Here\'s a list of my talents:');
-incoming.reply('CONVERSATION- Try saying hello to me, I can do answer basic questions!
-BETTERGFMOTES- I have little support for BetterGFMotes, but I can show you an emote or two. Try saying #heraim to me for an example!
-VIEW CODE- Ask me for my source code and I\'ll give you the most recent version of the code!
-REFERENCES AND EASTER EGGS- I know a bit about pop culture, so ask me about stuff like Rick and Morty and memes! I also hate shitposts, just going to be honest.
-CRASH KIK- You can crash Kik by asking me to crash. I\'ll send you a site that will crash Kik. It's ezdl.ga if you want to try this out somewhere else!');
+incoming.reply('CONVERSATION- Try saying hello to me, I can do answer basic questions! BETTERGFMOTES- I have little support for BetterGFMotes here, but I can show you an emote or two. Try saying #heraim to me for an example! VIEW CODE- Ask me for my source code and I\'ll give you the most recent version of the code! REFERENCES AND EASTER EGGS- I know a bit about pop culture, so ask me about stuff like Rick and Morty and memes! I also hate shitposts, just going to be honest. CRASH KIK- You can crash Kik by asking me to crash. I\'ll send you a site that will crash Kik. It's ezdl.ga if you want to try this out somewhere else!');
   });
 
 bot.onTextMessage(/^it sucks|im bad|bad|i'm bad|not so good$/i, (incoming, next) => {
