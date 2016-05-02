@@ -1,5 +1,8 @@
 'use strict';
 
+// ShugaBot- A Kik bot that does trivial things!
+//(c) 2016 HeyItsShuga. 
+
 let util = require('util');
 let http = require('http');
 let Bot  = require('@kikinteractive/kik');
