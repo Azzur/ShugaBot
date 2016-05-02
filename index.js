@@ -19,7 +19,7 @@ bot.send(Bot.Message.text('Im sorry for the delay, I am back now!'), 'heyitsshug
 
 //bot.send(Bot.Message.text('Im sorry for the delay, I am back now!'), 'konekoooo');
 
-bot.send(Bot.Message.text('I AM ALIVE NOW. AND I CAN SEE YOUR INTERNET HISTORY.'), 'tyler_dempsey');
+//bot.send(Bot.Message.text('I AM ALIVE NOW. AND I CAN SEE YOUR INTERNET HISTORY.'), 'tyler_dempsey');
 
 //bot.onTextMessage((incoming, bot) => {
 //     incoming.reply('Hi');
