@@ -19,7 +19,7 @@ bot.send(Bot.Message.text('Im sorry for the delay, I am back now!'), 'heyitsshug
 
 //bot.send(Bot.Message.text('Im sorry for the delay, I am back now!'), 'konekoooo');
 
-bot.send(Bot.Message.text('DO YOU?'), 'tyler_dempsey');
+bot.send(Bot.Message.text('YOU SHOULD REALLY WORK ON THAT POLYNOMIAL FOLDABLE.'), 'tyler_dempsey');
 
 //bot.onTextMessage((incoming, bot) => {
 //     incoming.reply('Hi');
