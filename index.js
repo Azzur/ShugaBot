@@ -17,8 +17,9 @@ bot.updateBotConfiguration();
 
 bot.send(Bot.Message.text('Im sorry for the delay, I am back now!'), 'heyitsshuga');
 
-bot.send(Bot.Message.text('Im sorry for the delay, I am back now!'), 'konekoooo');
+//bot.send(Bot.Message.text('Im sorry for the delay, I am back now!'), 'konekoooo');
 
+bot.send(Bot.Message.text('I SEE YOU'), 'tyler_dempsey');
 
 //bot.onTextMessage((incoming, bot) => {
 //     incoming.reply('Hi');
