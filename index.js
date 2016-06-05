@@ -139,6 +139,13 @@ bot.onTextMessage(/^are you a boy or a girl|what sex are you|what gender are you
       'a.username');
      });
 
+bot.onTextMessage(/^#monkeytcm$/i, (incoming, next) => {
+         incoming.reply(Bot.Message.picture('https://i.imgur.com/FB8CPgj.jpg')
+      .setAttributionName('BetterGFMotes')
+      .setAttributionIcon('https://raw.githubusercontent.com/Shugabuga/BetterGFMotes/master/Chrome/images/android-desktop.png'),
+      'a.username');
+     });
+
   // End BetterGFMotes
 
     bot.onTextMessage(/^crash|kill me|kill my phone|suicide|goodbye world|murder|murder me|crash my phone$/i, (incoming, next) => {
