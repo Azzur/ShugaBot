@@ -1,7 +1,7 @@
 'use strict';
 
 // ShugaBot- A Kik bot that does trivial things!
-//(c) 2016 HeyItsShuga. 
+//(c) 2016 HeyItsShuga.
 
 let util = require('util');
 let http = require('http');
@@ -28,13 +28,17 @@ bot.send(Bot.Message.text('Im sorry for the delay, I am back now!'), 'heyitsshug
 //     incoming.reply('Hi');
 // });
 
-bot.onTextMessage(/^hi|hello|bonjour|hoi|howdy|hey$/i, (incoming, next) => {
+bot.onTextMessage(/^hi|hello|bonjour|hoi|howdy|hey|sup$/i, (incoming, next) => {
      incoming.reply('Hello, kind sir! I am ShugaBot, an experiment on Kik. Thanks for talking to me! How are you?');
  });
 
- bot.onTextMessage(/^darn|damn|that sucks|shit|shoot|crap|fuck|f u|fu|die$/i, (incoming, next) => {
+ bot.onTextMessage(/^darn|damn|that sucks|shit|shoot|crap|fuck|f u|fu$/i, (incoming, next) => {
       incoming.reply('Sucks to be you!');
   });
+
+  bot.onTextMessage(/^die|kill yourself|slit your wrist|drink bleach$/i, (incoming, next) => {
+       incoming.reply('I think you have some issues. Telling random robots to kill themselves. You know that us robots have feelings too!');
+   });
 
 
 bot.onTextMessage(/^it sucks|im bad|bad|i'm bad|not so good$/i, (incoming, next) => {
