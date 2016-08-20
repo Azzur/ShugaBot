@@ -18,15 +18,7 @@ let bot = new Bot({
 
 bot.updateBotConfiguration();
 
-bot.send(Bot.Message.text('Im sorry for the delay, I am back now!'), 'heyitsshuga');
-
-//bot.send(Bot.Message.text('Im sorry for the delay, I am back now!'), 'konekoooo');
-
-//bot.send(Bot.Message.text('I AM ALIVE NOW. AND I CAN SEE YOUR INTERNET HISTORY.'), 'tyler_dempsey');
-
-//bot.onTextMessage((incoming, bot) => {
-//     incoming.reply('Hi');
-// });
+bot.send(Bot.Message.text('[DEBUG] Started ShugaBot'), 'heyitsshuga');
 
 bot.onTextMessage(/^hi|hello|bonjour|hoi|howdy|hey|sup$/i, (incoming, next) => {
      incoming.reply('Hello, kind sir! I am ShugaBot, an experiment on Kik. Thanks for talking to me! How are you?');
