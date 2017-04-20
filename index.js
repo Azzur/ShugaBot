@@ -13,7 +13,7 @@ let Bot  = require('@kikinteractive/kik');
 let bot = new Bot({
     username: 'mikaka_bot',
     apiKey: 'df9151a2-0971-4043-b28e-2d8e46c7b213',
-    baseUrl: 'https://kik-bot-mikaka.herokuapp.com:80'
+    baseUrl: 'http://kik-bot-mikaka.herokuapp.com:80'
 });
 
 bot.updateBotConfiguration();
