@@ -11,9 +11,9 @@ let Bot  = require('@kikinteractive/kik');
 
 // ShugaBot
 let bot = new Bot({
-    username: 'shugabot',
-    apiKey: 'f0707a44-37c1-40ec-91d7-09dd1ff4afd1',
-    baseUrl: 'http://shuga-kik-bot.herokuapp.com:80'
+    username: 'mikaka_bot',
+    apiKey: 'df9151a2-0971-4043-b28e-2d8e46c7b213',
+    baseUrl: 'https://kik-bot-mikaka.herokuapp.com:80'
 });
 
 bot.updateBotConfiguration();
